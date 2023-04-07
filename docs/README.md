@@ -42,8 +42,8 @@ projects:
 footer: DAW 2023
 ---
 
-This is an example of a project homepage. You can place your main content here.
+Esta é unha recompilación de enlaces e artigos que poden servirche de apoio no teu roteiro cara o desenvolvemento de aplicacións web e a súa publicación e explotación en Internet.
 
-To use this layout, you need to set `home: true` in the page front matter.
+Este material ten só un cometido formativo. E é só a antesala do moito que vas ter que ler no teu camiño cara formarte coma desenvolvedor web. Non teñas presa, só lee, aprende e práctica, práctica, práctica,...
 
-For related descriptions of configuration items, please see [Project HomePage Layout Config](https://theme-hope.vuejs.press/guide/layout/home/).
+Boa viaxe!
