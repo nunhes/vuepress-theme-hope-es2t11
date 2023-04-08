@@ -16,7 +16,7 @@ Antes de falar sobre arquitectura web, vexamos - de xeito sinxelo - como funcion
 
 ---
 
-Máis en detalle, velaí como xestionaría unha solicitude unha *aplicación web*:
+Máis en detalle, velaí como xestionaría unha solicitude unha _aplicación web_:
 
 1. O usuario envía unha solicitude á súa aplicación a través da interface de usuario - frontend.
 2. Se tes configurada unha caché relevante, a aplicación comprobaraa primeiro para ver se ten un rexistro válido que se pode enviar de volta ao cliente directamente. Se é así, devolverase o contido almacenado na caché e a solicitude marcarase como completa.
@@ -62,15 +62,15 @@ Pode ser tan simple como definir a relación entre o cliente e o servidor. Ou ta
 
 ---
 
-![bg Arquitectura de alta dispoñibilidade](/assets/identityMgr_high_availability.gif)
+![bg Arquitectura de alta dispoñibilidade](./assets/identityMgr_high_availability.gif)
 
-<small>*[Arquitectura](https://ws001.sspa.juntadeandalucia.es/confluence/display/GOBP/Soluciones+web%2C+arquitectura+de+referencia) de alta dispoñibilidade*</small>
+<small>_[Arquitectura](https://ws001.sspa.juntadeandalucia.es/confluence/display/GOBP/Soluciones+web%2C+arquitectura+de+referencia) de alta dispoñibilidade_</small>
 
 ---
 
-![bg Diagrama de componentes de una aplicación web de recomendación que muestra cómo interactúan los distintos componentes, como los clientes, las instancias de la base de datos, los servicios, etc.](/assets/web-app-architecture-components.jpg)
+![bg Diagrama de componentes de una aplicación web de recomendación que muestra cómo interactúan los distintos componentes, como los clientes, las instancias de la base de datos, los servicios, etc.](./assets/web-app-architecture-components.jpg)
 
-<small>*Diagrama de arquitectura dunha aplicación de recomendación. (Fonte: [Wikipedia](https://www.wikipedia.org/))*</small>
+<small>_Diagrama de arquitectura dunha aplicación de recomendación. (Fonte: [Wikipedia](https://www.wikipedia.org/))_</small>
 
 ---
 
@@ -80,7 +80,7 @@ E cada aplicación requirirá unha arquitectura específica.
 
 ---
 
-![bg](/assets/google2.gif)
+![bg](./assets/google2.gif)
 
 ---
 
@@ -90,7 +90,7 @@ E cada aplicación requirirá unha arquitectura específica.
 
 ![bg ](./assets/1000_F_350175156_9EiYwgPigBnOg7wlO55f9fqWBtqVVdYU.jpg)
 
-## *Fagamos unha aproximación rápida!*
+## _Fagamos unha aproximación rápida!_
 
 ---
 
@@ -128,7 +128,7 @@ As páxinas web son o compoñente principal dunha aplicación ou sitio web.
 
 Os navegadores solicitan páxinas (almacenadas ou creadas de forma dinámica\*) con información aos servidores web.
 
-\* *Nalgunhas contornas de desenvolvemento de aplicacións web, as páxinas conteñen, ademais ou xunto ao código HTML, scripts dinámicos que son executados polo servidor antes de entregar a páxina. Falamos entón de [paxinas dinamicas](https://blog.hubspot.es/website/paginas-web-dinamicas-y-estaticas), en oposición a aquelas que so dispensan contidos previamente marcados e almacenados e que non requiren a participación das linguaxes de guión*.
+\* _Nalgunhas contornas de desenvolvemento de aplicacións web, as páxinas conteñen, ademais ou xunto ao código HTML, scripts dinámicos que son executados polo servidor antes de entregar a páxina. Falamos entón de [paxinas dinamicas](https://blog.hubspot.es/website/paginas-web-dinamicas-y-estaticas), en oposición a aquelas que so dispensan contidos previamente marcados e almacenados e que non requiren a participación das linguaxes de guión_.
 
 ---
 
@@ -150,7 +150,7 @@ Os scripts do cliente adoitan ser código JavaScript - tamén [VBSscript](https:
 
 ---
 
-*As páxinas solicitadas en Internet son en gran parte dinámicas (ASP, PHP, etc.). Estas páxinas agrúpanse loxicamente para ofrecer un servizo ao usuario.*
+_As páxinas solicitadas en Internet son en gran parte dinámicas (ASP, PHP, etc.). Estas páxinas agrúpanse loxicamente para ofrecer un servizo ao usuario._
 
 ---
 
@@ -171,15 +171,15 @@ O acceso ás páxinas tamén se asocia ao tempo que un usuario permanece interac
 
 #### 2. Xestión de datos
 
-- Manexo da información,  bases de datos, compoñentes e arquivos.
+- Manexo da información, bases de datos, compoñentes e arquivos.
 
 ---
 
 #### 3. Interface (UI/UX)
 
 - Os usuarios acceden a través de navegadores, móbiles, PDA, etc. &rarr; *Responsividade*
-- Funcionalidade accesible a través do navegador. &rarr; *Accesibilidade*
-- Limitado e dirixido pola aplicación. &rarr; *Usabilidade*
+- Funcionalidade accesible a través do navegador. &rarr; _Accesibilidade_
+- Limitado e dirixido pola aplicación. &rarr; _Usabilidade_
 
 ---
 
@@ -190,24 +190,24 @@ As aplicacións web modélanse mediante o que se coñece como **modelo de capa**
 
 ---
 
-## **Modelo de dúas capas*
+## \*_Modelo de dúas capas_
 
 ---
 
-Gran parte da aplicación execútase no lado do cliente (*fat client*).
+Gran parte da aplicación execútase no lado do cliente (_fat client_).
 
 ---
 
 As capas son:
 
-- Cliente (*fat client*): a lóxica de negocio está incrustada dentro da aplicación que presenta a interface de usuario no lado do cliente.
+- Cliente (_fat client_): a lóxica de negocio está incrustada dentro da aplicación que presenta a interface de usuario no lado do cliente.
 - Servidor: xestiona os datos.
 
 ---
 
 As limitacións deste modelo son
 
-- Escasa *escalabilidade*
+- Escasa _escalabilidade_
 - Permite un número reducido de conexións simultáneas
 - Alta carga de rede
 - Flexibilidade restrinxida
@@ -221,7 +221,7 @@ As limitacións deste modelo son
 
 ![bg left](./assets/figura-1-1-tif.jpg)
 
- *As arquitecturas de dúas capas foron as primeiras en aproveitarse da estrutura Cliente/Servidor*.
+_As arquitecturas de dúas capas foron as primeiras en aproveitarse da estrutura Cliente/Servidor_.
 
 ---
 
