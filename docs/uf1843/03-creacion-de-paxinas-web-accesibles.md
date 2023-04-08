@@ -86,13 +86,13 @@ Proba Lighthouse no explorador. Nas capturas de pantalla seguintes úsase Edge, 
 
 6. En Device (Dispositivo), selecciona Desktop (Escritorio).
 
-![Captura de pantalla de Lighthouse con Accessibility (Accesibilidad) seleccionado en Categories (Categorías), e Desktop (Escritorio) seleccionado en Device (Dispositivo).](./assets/lighthouse-option-selection.png)
+![Captura de pantalla de Lighthouse con Accessibility (Accesibilidad) seleccionado en Categories (Categorías), e Desktop (Escritorio) seleccionado en Device (Dispositivo)](./assets/lighthouse-option-selection.png)
 
-7. Selecciona 'Generate report' (Xerar informe).
+1. Selecciona 'Generate report' (Xerar informe).
 
-8. Observa a puntuación e a información asociada sobre a páxina.
+2. Observa a puntuación e a información asociada sobre a páxina.
 
-9. Para probar outras páxinas, selecciona Clear all (Borrar todo) en Lighthouse, vai a outra páxina e, a continuación, selecciona Generate report (Xerar informe).
+3. Para probar outras páxinas, selecciona Clear all (Borrar todo) en Lighthouse, vai a outra páxina e, a continuación, selecciona Generate report (Xerar informe).
 
 ![Captura de pantalla da sección de URL de Lighthouse, có botón para borrar todos os elementos resaltado.](./assets/lighthouse-clear.png)
 
